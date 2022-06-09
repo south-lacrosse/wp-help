@@ -8,7 +8,7 @@ The Location block is used to display the location, map, and directions for a cl
 
 Filling in the block should be straightforward, as there is placeholder text to show you what to enter. There is also extensive help in the block settings (you can open and close the settings panel using the gear icon in the top right, and select the block to see it's settings).
 
-You should enter the club Address first, along with the postcode. If the postcode is with the London area then a link with directions via TFL will automatically be added.
+You should enter the club Address first, along with the postcode.
 
 You should then set the GPS coordinates of the ground. If you already know them you can add them in the block settings, otherwise you can use 'Set location on map' button:
 
