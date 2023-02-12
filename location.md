@@ -2,34 +2,12 @@
 title: Location Block
 ---
 
-The Location block is used to display the location, map, and directions for a club. When you create a new block you will see:
+The Location block is used to display the location, notes about the location, map, and directions for a club or venue. When you create a new Location block you will see:
 
 ![Empty Location block](assets/img/location-empty.png)
 
-Filling in the block should be straightforward, as there is placeholder text to show you what to enter. There is also extensive help in the block settings (you can open and close the settings panel using the gear icon in the top right, and select the block to see it's settings).
+The Location block is made up of an Address field, then a number of inner blocks which can be a [Map block](map.md), Paragraph, or Image. By default there is a Paragraph for notes to always show, and a Map. There can only be one Map, but you can add more Paragraphs or Images. If you don't need the Notes above the map make sure to delete the block, otherwise there will be an empty paragraph on the finished page.
 
-You should enter the club Address first, along with the postcode.
+You should enter the Address including postcode before setting the coordinates on the [Map block](map.md), as the Map block will use that as the initial location if you use the 'Set coordinates on map' button.
 
-You should then set the GPS coordinates of the ground. If you already know them you can add them in the block settings, otherwise you can use 'Set location on map' button:
-
-![Location with no map](assets/img/location-no-map.png)
-
-That will take you to a dialog with a Google map, where you can drag a marker or double-click to set the exact position, or use the search box to search for a location.
-
-**Note:** You should enter the address before opening the dialog, as the map will start at the address if there are no co-ordinates set.
-
-Put important instructions that should always be displayed in the entry field above the map (e.g. non-grass pitch types and required footwear, non-standard start times), as anything below that will be hidden when the page is initially displayed.
-
-Enter directions below the map. Since 99.9% of people have SatNav on their phones only add anything if the route is complicated, or things like the postcode taking people to the wrong place. And if possible add information about public transport.
-
-![Completed Location](assets/img/location-complete.png)
-
-You will note that there is a dotted line around content that will initially be hidden on the club's page.
-
-The finished location will be appear on the site as below:
-
-![Location as it appears closed on the site](assets/img/location-site-closed.png)
-
-and open:
-
-![Location as it appears open on the site](assets/img/location-site-open.png)
+Directions should be entered in the Map block below the map, so they are then hidden when the page is first displayed.
