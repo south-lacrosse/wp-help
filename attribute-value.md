@@ -4,11 +4,13 @@ title: Attribute Value
 
 The `Attribute/value pair` block allows you to easily format items like a contact, or attributes like club colours etc.
 
-When you select the block it looks as follows:
+You can transform attribute/value blocks to and from paragraphs, so if you have several attribute/values to add then the quickest way is to just enter them as paragraphs (include the colon, e.g. "Colours: Red", as everything before that is considered the attribute, and after it is the value), select the blocks, go to the toolbar and click the Paragraph icon (it'll be on the left) and select `Attribute/value pair` to transform to.
+
+When you create the block it looks as follows:
 
 ![Empty Attribute/value](assets/img/attr-value-empty.png)
 
-Simply enter the values required. If you enter an email address or telephone number then you should make it a link so people can click it. To do that highlight the item, and hit the link icon:
+Simply enter the values required. If you enter an email address or telephone number then you should make it a link so people can click it. To do that highlight the item, and hit the link icon in the toolbar:
 
 ![Attribute/value adding a link](assets/img/attr-value-link.png)
 
