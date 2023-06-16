@@ -2,20 +2,36 @@
 title: Clubs
 ---
 
-Clubs are added using their own post type, and can be found on the main WordPress Admin Dashboard.
+Clubs are added using their own post type, and can be found on the main WordPress Admin Dashboard menu. They are edited in the same way as regular pages and posts, though there are specific blocks that you should use.
 
-![Dashboard showing clubs](assets/img/clubs-dashboard.png)
+If the Club has a logo then it should start with a **Club Title** block. This will replace the normal page title (the club name) on the front end as long as it contains a **Post Title** inner block, which it does by default (unfortunately we can't hide the standard title in the editor, so you will see the club name twice).
 
-They are edited in the same way as regular pages and posts, however the club's location should be added using a [Location Block](location.md), as that will correctly format the Google Map, and make sure the club is placed correctly on the Clubs Map etc.
+If you have entered the club name then an initial Club Title block, with the club name above it, will look like:
 
-You should also use the [Attribute Value Block](attribute-value.md) to correctly format things like contacts, club colours etc.
+![Empty Club Title](assets/img/club-title-empty.png)
 
-When you create a new club you will be presented with a template for how a club should be set up. You can easily delete any unwanted blocks by using the List View.
+You need to set the Club's featured image to the logo. In the settings on the right select the Club tab rather than Block, and locate the **Featured Image** section. If you don't see the settings area, you may need to click on the settings icon in the top right corner to make it appear. Once you have uploaded or selected a featured image it will appear in the Club Title.
 
-![List View](/assets/img/list-view.png)
+Inside the Club Title block you can also have a **Website** block, which is used to determine the club's website in other pages such as the Clubs List, and also a standard **Social Links** block for links to Facebook, Instagram etc. Once completed it should look something like:
 
-Links to the club's website links should contain the text "website" or "Facebook" (case doesn't matter), possibly proceeded by "Club ", as these will be what is displayed on the Clubs List page.
+![Completed Club Title](assets/img/club-title-filled.jpg)
 
-To create links highlight the text for the link, click the link icon, and add the URL.
+The club's location should be added using a [Location Block](location.md), as that will correctly format the Google Map, and make sure the club is placed correctly on the Clubs Map etc.
+
+You should also use the [Attribute Value Block](attribute-value.md) to correctly format things like contacts, club colours etc., and take a look at the help page as it details a quickest way to enter attribute/values as paragraphs, and then transforming them.
+
+When you create a new club you will be presented with a template for how a club should be set up. You can easily delete any unwanted blocks by using the Document Overview.
+
+![Document Overview](/assets/img/overview.png)
+
+If you know the Club's founded date then you should add it to the page under Club Information, unless the logo contains the founded date in which case it can be omitted, though you should make sure it's added to the [SEMLA Club Founded Dates Google Sheet](https://docs.google.com/spreadsheets/d/1_FFVi4FSQ5mW2Ory7X4gIRy-0JHlQEC3Zx6KJfQyusw/edit?usp=sharing)
 
 You should check out the layout for other Clubs to see what is possible.
+
+## Clubs List
+
+Information from the Club page is also used for the Clubs List [SEMLA Data block](semla-data.md), so you need to make sure you create the Club in the correct format.
+
+Most, if not all, clubs should use the **Club Title** block. Its inner **Website** block is then used to populate the website link on the Clubs List. If there is no Website block then the Clubs List will use the first link on the page with the link text of "Website" or "Club Website" (case doesn't matter).
+
+The other links are populated from the first **Social Icons** block on the page, usually the one in the Club Title block.
