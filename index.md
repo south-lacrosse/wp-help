@@ -18,5 +18,5 @@ These help files only cover SEMLA specific blocks and post types. It is assumed 
 
 * [Google Calendar Block](google-calendar.md) - to add a Google Calendar
 * [Menus](menus.md)
-* [News & Categories Sidebar](news-side.md) - edit the sidebar on lists of posts
+* [News & Categories Sidebar](news-sidebar.md) - edit the sidebar on lists of posts
 * [SEMLA Data Block](semla-data.md) - for league tables, fixtures, etc.
