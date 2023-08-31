@@ -20,3 +20,4 @@ These help files only cover SEMLA specific blocks and post types. It is assumed 
 * [Menus](menus.md)
 * [News & Categories Sidebar](news-sidebar.md) - edit the sidebar on lists of posts
 * [SEMLA Data Block](semla-data.md) - for league tables, fixtures, etc.
+* [Users](users.md) - adding, editing, and deleting users
