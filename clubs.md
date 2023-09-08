@@ -30,6 +30,8 @@ You should also use the [Attribute Value Block](attribute-value.md) to correctly
 
 If you know the Club's founded date then you should add it to the page under Club Information, unless the logo contains the founded date in which case it can be omitted, though you should make sure it's added to the [SEMLA Club Founded Dates Google Sheet](https://docs.google.com/spreadsheets/d/1_FFVi4FSQ5mW2Ory7X4gIRy-0JHlQEC3Zx6KJfQyusw/edit?usp=sharing)
 
+Finally, at the bottom you should always add the **Club Footer** [synced pattern](patterns.md#synced-patterns).
+
 You should check out the other Clubs to see what is possible.
 
 ## Clubs List
