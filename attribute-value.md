@@ -4,7 +4,7 @@ title: Attribute Value
 
 The `Attribute/value pair` block allows you to easily format items like a contact, or attributes like club colours etc.
 
-You can transform attribute/value blocks to and from paragraphs, so if you have several attribute/values to add then the quickest way is to just enter them as paragraphs (include the colon, e.g. "Colours: Red", as everything before that is considered the attribute, and after it is the value), select the blocks, go to the toolbar and click the Paragraph icon (it'll be on the left) and select `Attribute/value pair` to transform to.
+You can transform attribute/value blocks to and from paragraphs, so if you have several attribute/values to add then the quickest way is to just enter them as paragraphs (include the colon, e.g. "Colours: Red", as everything before that is considered the attribute, and after it is the value), select the blocks, go to the toolbar and click the Paragraph icon (it'll be on the left) and select `Attribute/value pair` to transform to. If you have a multi-line value then make sure you use shift-Enter instead of Enter to keep all the lines within the same paragraph so that they will then be transformed to a single Attribute/value.
 
 When you create the block it looks as follows:
 
