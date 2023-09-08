@@ -12,8 +12,8 @@ Some blocks also support full width, but this should be used extremely sparingly
 
 ## Post Author
 
-You should be aware that posts (not pages or clubs) will display the author name and modified date. If you want this to display your actual name then you should create the post from a personal account (or see below to create posts from a different account). Note this doesn't mean having say a `semla_secretary` user with the name set to your name, as when someone else takes over that role that user's name will be changed, and all posts you authored will have the author name changed too! If you need a personal account then you should ask the Webmaster or another administrator to create one for you.
+You should be aware that posts (not pages or clubs) will display the author name and modified date on the front end, so if you create a post from an account for your role such as "SEMLA Webmaster" it will display that name. If you want the post to display your actual name then you should create the post from a personal account (or see below to create a post as a different user). Note in the above example this doesn't mean setting the "SEMLA Webmaster" name to your name, as when someone else takes over that role the name will be changed, and all the posts that user has authored will have the author name changed too! If you need a personal account then you should ask the Webmaster or another administrator to create one for you.
 
-### Creating Posts As Different User
+### Creating Posts As A Different User
 
-If you also have an user for your SEMLA role (e.g. Webmaster or President) and that user has the Editor or SEMLA Officer roles (and they most likely do) you can assign posts to a different author, either while editing it from the Post Settings, or you can change existing posts using Quick Edit or Bulk actions from the Posts list.
+If you user account has the Editor or SEMLA Officer roles (and they most likely do) you can assign posts to a different author, either while editing it from the Post Settings, or you can change existing posts from the Posts list screen using Quick Edit or Bulk actions.
