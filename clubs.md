@@ -4,6 +4,12 @@ title: Clubs
 
 Clubs are added using their own post type, and can be found on the main WordPress Admin Dashboard menu. They are edited in the same way as regular pages and posts, though there are specific blocks that you should use.
 
+The simplest option to create a new club is to add the Club Layout pattern (see [Block Patterns](patterns.md)). Note that you can modify this pattern for future use, or create additional patterns. Alternatively edit another club and copy the content from there.
+
+You can easily delete any unwanted blocks by using the Document Overview.
+
+![Document Overview](/assets/img/overview.png)
+
 If the Club has a logo then it should start with a **Club Title** block. This will replace the normal page title (the club name) on the front end as long as it contains a **Post Title** inner block, which it does by default (unfortunately we can't hide the standard title in the editor, so you will see the club name twice).
 
 If you have entered the club name then an initial Club Title block, with the club name above it, will look like:
@@ -20,13 +26,9 @@ The club's location should be added using a [Location Block](location.md), as th
 
 You should also use the [Attribute Value Block](attribute-value.md) to correctly format things like contacts, club colours etc., and take a look at the help page as it details a quickest way to enter attribute/values as paragraphs, and then transforming them.
 
-When you create a new club you will be presented with a template for how a club should be set up. You can easily delete any unwanted blocks by using the Document Overview.
-
-![Document Overview](/assets/img/overview.png)
-
 If you know the Club's founded date then you should add it to the page under Club Information, unless the logo contains the founded date in which case it can be omitted, though you should make sure it's added to the [SEMLA Club Founded Dates Google Sheet](https://docs.google.com/spreadsheets/d/1_FFVi4FSQ5mW2Ory7X4gIRy-0JHlQEC3Zx6KJfQyusw/edit?usp=sharing)
 
-You should check out the layout for other Clubs to see what is possible.
+You should check out the other Clubs to see what is possible.
 
 ## Clubs List
 
