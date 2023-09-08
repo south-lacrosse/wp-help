@@ -14,15 +14,7 @@ Simply enter the values required. If you enter an email address or telephone num
 
 ![Attribute/value adding a link](assets/img/attr-value-link.png)
 
-For correctly formatted email addresses WordPress will automatically add `mailto:` to the start of the link to show it's an email. For telephone numbers you will need to add `tel:` to the beginning of the URL, and make sure there are no spaces in the number, so `tel:07123456789`, and not `tel: 07123 456789`. You can use the international number format and hyphens for separators, so `tel:+44-7123-456789` is valid. On mobile devices a `tel:` link will dial the number when a user clicks it, and desktop browsers may offer to make a call from their phone.
-
-You should also nicely format the link text so it is easier to read. For mobile numbers that means grouping 5-6, 020 numbers 3-4-4, and if the number has an international dialing code then that should be separated and the first group size reduced by 1.
-
-| Number | Formatted |
-| ------ | --------- |
-| `07123456789` | `07123 456789` |
-| `+447123456789` | `+44 7123 456789` |
-| `02012345679` | `020 1234 5679` |
+For correctly formatted email addresses WordPress will automatically add `mailto:` to the start of the link to show it's an email. See [Telephone Number Links](editing.md#telephone-number-links) for details about linking to phone numbers.
 
 ![Attribute/value after link added](assets/img/attr-value-link-added.png)
 

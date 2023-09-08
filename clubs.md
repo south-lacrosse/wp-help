@@ -4,7 +4,7 @@ title: Clubs
 
 Clubs are added using their own post type, and can be found on the main WordPress Admin Dashboard menu. They are edited in the same way as regular pages and posts, though there are specific blocks that you should use.
 
-The simplest option to create a new club is to add the Club Layout pattern (see [Block Patterns](patterns.md)). Note that you can modify this pattern for future use, or create additional patterns. Alternatively edit another club and copy the content from there.
+The simplest option to create a new club page is to add the Club Layout pattern (see [Block Patterns](patterns.md)). Note that you can modify this pattern for future use, or create additional patterns. Alternatively edit another club and copy the content from there.
 
 You can easily delete any unwanted blocks by using the Document Overview.
 
@@ -12,13 +12,15 @@ You can easily delete any unwanted blocks by using the Document Overview.
 
 If the Club has a logo then it should start with a **Club Title** block. This will replace the normal page title (the club name) on the front end as long as it contains a **Post Title** inner block, which it does by default (unfortunately we can't hide the standard title in the editor, so you will see the club name twice).
 
-If you have entered the club name then an initial Club Title block, with the club name above it, will look like:
+If you have entered the club name then a Club Title block with the club name above it will look like:
 
 ![Empty Club Title](assets/img/club-title-empty.png)
 
 You need to set the Club's featured image to the logo. In the settings on the right select the Club tab rather than Block, and locate the **Featured Image** section. If you don't see the settings area, you may need to click on the settings icon in the top right corner to make it appear. Once you have uploaded or selected a featured image it will appear in the Club Title.
 
-Inside the Club Title block you can also have a **Website** block, which is used to determine the club's website in other pages such as the Clubs List, and also a standard **Social Links** block for links to Facebook, Instagram etc. Once completed it should look something like:
+Inside the Club Title block you can also have a **Website** block, which is used to determine the club's website in other pages such as the Clubs List, and also a standard **Social Links** block for links to Facebook, Instagram etc.. Please make sure you use correct [link URLs](editing.md#link-url).
+
+Once completed it should look something like:
 
 ![Completed Club Title](assets/img/club-title-filled.jpg)
 
