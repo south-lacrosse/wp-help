@@ -14,8 +14,13 @@ You should also note that GMail ignores everything after a `+` sign in the email
 
 ## Roles
 
-Apart from the standard WordPress roles, we have a `SEMLA Officer` role. This is the same as `Editor`, plus the user has access to the SEMLA Admin Menu, so they can do things like load the fixtures. Administrators have access to everything, including the SEMLA Admin Menu.
+Apart from the standard WordPress roles, we have a added the following:
+
+* `SEMLA Officer` - the same as `Editor`, plus the user has access to the SEMLA Admin Menu, so they can do things like load the fixtures.
+* `Blocked Author` - the same as `Author`, but users cannot login. Use this if you want to remove a user from the site, but keep them as an author on any posts they created.
+
+Administrators have access to everything, including the SEMLA Admin Menu.
 
 ## Deleting Users
 
-Deleting most users isn't a problem, but if you delete an author who has posts then WordPress will ask you to assign their posts to another user. In order to preserve the correct credit on the author's posts you should therefore **not delete authors**, but instead edit the user and set their Role to `— No role for this site —`. Users without a role won't be able to login, and can safely remain on the system.
+Deleting most users isn't a problem, but if you delete an author who has posts then WordPress will ask you to assign their posts to another user. In order to preserve the correct credit on the author's posts you should therefore **not delete authors**. Instead set their Role to `Blocked Author` so they won't be able to login, and they can safely remain on the system.
