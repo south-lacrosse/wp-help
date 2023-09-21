@@ -44,3 +44,16 @@ You should be aware that posts (not pages or clubs) will display the author name
 ### Creating Posts As A Different User
 
 If you user account has the Editor or SEMLA Officer roles (and they most likely do) you can assign posts to a different author, either while editing it from the Post Settings, or you can change existing posts from the Posts list screen using Quick Edit or Bulk actions.
+
+## Custom Block Styling
+
+To style a block you can usually use the styling options in the block Settings. You can also add custom styles provided by the theme to any block using the Additional CSS Classes feature (CSS is Cascading Style Sheets, the language used to style web pages).
+
+To add an additional CSS class to a block, click on the block you are editing. Then, check the block settings on the right for the Advanced setting.
+
+If you don't see the block settings on the right, click the settings icon in the top right corner to open the settings. This icon looks like a square with two uneven columns.
+
+Classes provided by our theme are:
+
+* `no-print` - omit from printed page. If a user prints a page our default styles will remove the header, footer, sidebars, and navigation. Use this class if you don't want the current block to be printed.
+* `callout callout-info` etc. - see [the Callout page](callout.md) for how to style callouts.
