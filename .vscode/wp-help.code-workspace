@@ -1,0 +1,30 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "files.trimTrailingWhitespace": true,
+        "[markdown]": {
+            "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        },
+        "editor.formatOnSave": true,
+        "cSpell.language": "en-GB",
+        "cSpell.customDictionaries": {
+            "semla-words": {
+                "name": "semla-words",
+                "path": "${workspaceFolder}/.vscode/cspell-dictionary.txt",
+                "description": "SEMLA words",
+                "addWords": true
+            }
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "davidanson.vscode-markdownlint",
+            "donjayamanne.githistory",
+            "streetsidesoftware.code-spell-checker"
+        ]
+    }
+}
