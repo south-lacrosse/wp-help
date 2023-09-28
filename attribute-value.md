@@ -18,7 +18,7 @@ For correctly formatted email addresses WordPress will automatically add `mailto
 
 ![Attribute/value after link added](assets/img/attr-value-link-added.png)
 
-Once you have filled out the fields the block should look as follows (note: on the live page the colon will be immediately after the attribute):
+Once you have filled out the fields the block should look as follows:
 
 ![Attribute/value complete](assets/img/attr-value-filled.png)
 
