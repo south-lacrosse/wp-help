@@ -7,10 +7,11 @@ These help files only cover SEMLA specific blocks and post types. It is assumed 
 
 [General Editing Help](editing.md)
 
-* [Attribute Value Block](attribute-value.md) - for contacts, or attributes like club colours
+* [Attribute Value Block](attribute-value.md) - for attributes like club colours, see below for Contact block
 * [Block Patterns](patterns.md) - reusable block patterns
-* [Clubs](clubs.md) - how to create and update clubs
 * [Callouts](callout.md) - draw attention to specific information
+* [Clubs](clubs.md) - how to create and update clubs
+* [Contact Block](contact.md) - for contacts
 * [Images](images.md) - information on optimizing images, and creating lightbox galleries
 * [Location Block](location.md) - add a location with map and directions (from Map Block)
 * [Map Block](map.md) - standalone map and directions
