@@ -4,6 +4,10 @@ title: Clubs
 
 Clubs are added using their own post type, and can be found on the main WordPress Admin Dashboard menu. They are edited in the same way as regular pages and posts, though there are specific blocks that you should use.
 
+**Before creating a new club**: if a club has a previous incarnation then it should still have a club page, it will just have a status of `Private` instead of `Published`. You can find all the Private clubs by going to the Clubs page in the dashboard, and at the top you can select `Private`, or select `All` to view everything. Just edit the club as usual, and don't forget to set the status to `Published` so that it appears on the front end.
+
+Of course it follows from this, if you are deleting a club then don't actually delete it, just set the status to Private (you can also do this from the Clubs list using `Quick Edit`) unless that club will never be needed again.
+
 The simplest option to create a new club page is to add the Club Layout pattern (see [Block Patterns](patterns.md)). Note that you can modify this pattern for future use, or create additional patterns. Alternatively edit another club and copy the content from there.
 
 You can easily delete any unwanted blocks by using the Document Overview.
