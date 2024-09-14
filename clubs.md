@@ -32,7 +32,7 @@ Once completed it should look something like:
 
 The club's location should be added using a [Location Block](location.md), as that will correctly format the Google Map, and make sure the club is placed correctly on the Clubs Map etc.
 
-You should also use the [Attribute Value Block](attribute-value.md) to correctly format things like contacts, club colours etc., and take a look at the help page as it details a quickest way to enter attribute/values as paragraphs, and then transforming them.
+You should use the [Contact Block](contact.md) for contacts, and the [Attribute Value Block](attribute-value.md) to correctly format things like colours. You should take a look at both of those help pages as they detail easy ways to create these blocks by pasting or by transforming from other blocks.
 
 If you know the Club's founded date then you should add it to the page under Club Information, unless the logo contains the founded date in which case it can be omitted, though you should make sure it's added to the [SEMLA Club Founded Dates Google Sheet](https://docs.google.com/spreadsheets/d/1_FFVi4FSQ5mW2Ory7X4gIRy-0JHlQEC3Zx6KJfQyusw/edit?usp=sharing)
 
