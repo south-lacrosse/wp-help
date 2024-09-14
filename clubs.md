@@ -8,7 +8,9 @@ Clubs are added using their own post type, and can be found on the main WordPres
 
 Of course it follows from this, if you are deleting a club then don't actually delete it, just set the status to Private (you can also do this from the Clubs list using `Quick Edit`) unless that club will never be needed again.
 
-The simplest option to create a new club page is to add the Club Layout pattern (see [Block Patterns](patterns.md)). Note that you can modify this pattern for future use, or create additional patterns. Alternatively edit another club and copy the content from there.
+The simplest option to create a new club page is to add the Club Layout pattern (see [Block Patterns](patterns.md)). Note that you can modify this pattern for future use, or create additional patterns.
+
+Alternatively copy the content from another club by editing that club, click the 3 vertical dots in the top right hand corner, and under TOOLS you can "Copy all blocks". Then create the new club, and paste. You might be tempted to modify an existing Private club instead of creating a new club, but you should never do this as you will lose the ability recreate that club, the historical revisions of the new club will include the old one, and if you have changed the page slug then WordPress will redirect any requests for the old club page to the new one.
 
 You can easily delete any unwanted blocks by using the Document Overview.
 
