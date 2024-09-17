@@ -4,9 +4,17 @@ title: Block Patterns
 
 Patterns are pre-made design elements that you can use to quickly and easily create your content. For example we have patterns for a Club Layout, the Club Footer, and a Callout pattern for useful information, and it is likely more will be added later.
 
-Patterns are still quite new and are liable to change, so their use will only be briefly covered here.
+Patterns are still quite new and are liable to change, so their use will only be briefly covered here, and this information may be out of date.
 
-You can access the patterns from the Block inserter on the edit screen, either using the blue `+` at the top of the screen, or using the `+` in the content area where patterns will be shown in the search, or pick Browse all. You need to choose the Patterns tab, or the diamond icon for Synced Patterns.
+You can edit patterns using `Appearance->Patterns`, or you can edit Synced patterns on any page they are used (see below).
+
+![Choose A Block](assets/img/block-choose.png)
+
+The simplest way to insert a pattern is to enter the pattern name where you see "Type / to choose a block", just type "/" and start typing the pattern name to see a list of blocks and patterns select from.
+
+![Select A Pattern or Block](assets/img/block-select-pattern.png)
+
+You can also access the patterns from the Block inserter on the edit screen, either using the blue `+` at the top of the screen, or using the `+` in the content area where patterns will be shown in the search, or pick Browse all. You need to choose the Patterns tab, or the diamond icon for Synced Patterns.
 
 ## Regular Patterns
 
