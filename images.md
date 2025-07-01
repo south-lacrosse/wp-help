@@ -30,7 +30,11 @@ You might get images with weird names like `cid_A0E6CC18-EB02-43F2-B0DC-D33453D3
 
 A lightbox is a modal image gallery, where you usually have a set of thumbnails and selecting one will pop up a larger image. You can then navigate through these larger images, or exit and select another thumbnail.
 
-Our SEMLA plugin allows you to create these using the standard WordPress gallery block. What you need to do is:
+WordPress has a built-in version, which you can set on an Image or Gallery using the link icon, and setting that to `Enlarge on click`. Note that you may need to delete an existing link in order to see that option.
+
+However, as of WordPress 6.8.1 there is no navigational functionality in their lightbox, so you can't click to go to the next image in a gallery, you have to close one image, and then open another.
+
+To work around this, our SEMLA plugin allows you to create a lightbox for a gallery with navigation. What you need to do is:
 
 1. Create a gallery block, and add your images.
 1. If the block added captions then you probably want to delete them.
