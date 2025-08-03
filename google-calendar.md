@@ -6,7 +6,9 @@ The Google Calendar block (don't pick the Calendar block) allows you display a G
 
 ![Calendar block](assets/img/cal.png)
 
-You will need to obtain the calendar id. If you don't own or subscribe to the calendar then you will need to get the id from the owner, but assuming you do then go to [Google Calendar](https://calendar.google.com/), and go to the options for that calendar
+Note that we don't show the live calendar in the editor, but once you have entered the Calendar Id you can simply open the preview to see what it will look like.
+
+You will need to obtain the Calendar Id. If you don't own or subscribe to the calendar then you will need to get the id from the owner, but assuming you do then go to [Google Calendar](https://calendar.google.com/), and go to the options for that calendar.
 
 ![Google Calendar options](assets/img/google-cal-options.png)
 
@@ -28,7 +30,7 @@ it will appear on the site as below ("Germany Lacrosse Convention 2022" is a lin
 
 ![Enhanced Calendar](assets/img/cal-enhanced.png)
 
-To set the enhanced mode you need to open the block settings (select the block, and if the settings are not open then click the gear icon in the top right.
+To set the enhanced mode you need to open the block settings (select the block, and if the settings are not open then click the gear icon in the top right).
 
 You can specify colours for the tags (default blue) under the Tags setting.
 
