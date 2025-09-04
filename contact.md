@@ -24,6 +24,8 @@ You can also make the contact details be shown on the next line to the role, usi
 
 ![Contact line below](assets/img/contact-line-below.png)
 
+You can also ensure the contact will not be included in the [Clubs mailing list](mailing-lists.md) by selecting `Exclude from mailing lists`.
+
 The block is also responsive so that when it's displayed on a device with a narrow page the role will be displayed on one line, and the contact details on the next line.
 
 ## Pasting Values
