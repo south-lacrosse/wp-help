@@ -6,7 +6,9 @@ The Google Calendar block (don't pick the Calendar block) allows you display a G
 
 ![Calendar block](assets/img/cal.png)
 
-Note that we don't show the live calendar in the editor, but once you have entered the Calendar Id you can simply open the preview to see what it will look like.
+Note that we don't show the live calendar in the editor, but once you have entered the Calendar Id you can simply open the preview to see what it will look like. Note that the preview works even if you haven't hit "Save" yet.
+
+![Preview Link](assets/img/preview-link.png)
 
 You will need to obtain the Calendar Id. If you don't own or subscribe to the calendar then you will need to get the id from the owner, but assuming you do then go to [Google Calendar](https://calendar.google.com/), and go to the options for that calendar.
 

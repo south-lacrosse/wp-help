@@ -24,6 +24,10 @@ Once complete the block in the editor will look like:
 
 ![Completed Map Editor](assets/img/map-complete-editor.png)
 
+Note that we don't show the live map in the editor, but once you have entered the coordinates you can simply open the preview to see what it will look like. Note that the preview works even if you haven't hit "Save" yet.
+
+![Preview Link](assets/img/preview-link.png)
+
 And when live it will display as:
 
 ![Completed Map](assets/img/map-complete.png)
