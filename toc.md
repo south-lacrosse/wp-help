@@ -6,14 +6,16 @@ When you create a Table of contents it will display
 
 ![Table of Contents empty block](assets/img/toc-empty.png)
 
-You can change the Contents field to whatever you want for the table of contents heading, or leave it empty to default to "Contents". Then simply start adding headings, and they will automatically be added to the table of contents.
+You can change the "Contents" text to whatever you want for the table of contents heading, or leave it as the default.
 
-![Table of Contents](assets/img/toc.png)
-
-If headings are nested, e.g h2 then h3, then the h3s in the table of contents will also be indented.
-
-Each item in the the table of contents will link to the appropriate heading using the HTML anchor for the heading. The anchor can be found in the Advanced block settings (to open up settings click the gear icon in the top right).
+Headings with HTML anchors will be automatically added to the table of contents. The anchor can be set in the block settings under Advanced (to open up settings click the settings icon in the top right, or `Ctrl+Shift+,`). Anchors cannot contain spaces, so if you have a heading for "Individual Registration" then the anchor should be `Individual-Registration`, or you could shorten it to `Registration`. Just make sure you don't have duplicate anchors on a page.
 
 ![HTML anchor options](assets/img/html-anchor.png)
 
-If any heading on the page doesn't have an anchor then one will be generated with st-{heading title} (st for sub-topic), so for Registration the link will be #st-Registration. The *st-* prefix is used so that the block knows it can change the anchor, so in the above example if you change Registration to "New Registrations" then the anchor will change to st-New-Registrations. You will usually want to specify your own anchors, in which case if you change the heading then you will also need to update the anchor.
+The anchor is used to generate an internal link like `#Registration` which is used not only in the table of contents, but can also be directly linked to from another page e.g. `https://www.southlacrosse.org.uk/club-responsibilities#Registration`.
+
+Once you have headings with anchors the table of contents will look something like:
+
+![Table of Contents](assets/img/toc.png)
+
+If headings are nested, e.g H2 then H3, then the H3s in the table of contents will also be indented.

@@ -32,7 +32,7 @@ it will appear on the site as below ("Germany Lacrosse Convention 2022" is a lin
 
 ![Enhanced Calendar](assets/img/cal-enhanced.png)
 
-To set the enhanced mode you need to open the block settings (select the block, and if the settings are not open then click the gear icon in the top right).
+To set the enhanced mode you need to open the block settings (select the block, and if the settings are not open then click the settings icon in the top right, or `Ctrl+Shift+,`).
 
 You can specify colours for the tags (default blue) under the Tags setting.
 
