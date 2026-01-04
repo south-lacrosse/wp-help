@@ -19,3 +19,9 @@ Once you have headings with anchors the table of contents will look something li
 ![Table of Contents](assets/img/toc.png)
 
 If headings are nested, e.g H2 then H3, then the H3s in the table of contents will also be indented.
+
+By default the table of contents will float to the right of the page. This cannot be displayed in the editor, so to see the exact page layout you should go the the page Preview.
+
+You can also choose to have the table of contents fill the full content width by selecting the option in the toolbar. Note in the image below the selected option (dark) is for the default "Float right" option.
+
+![Float Options](assets/img/toc-float.png)
