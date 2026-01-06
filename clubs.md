@@ -12,9 +12,11 @@ The simplest option to populate a new club page is to **add the Club Layout patt
 
 ![Select A Pattern or Block](assets/img/block-select-pattern.png)
 
-Alternatively copy the content from another club by editing that club, click the 3 vertical dots in the top right hand corner, and under TOOLS you can "Copy all blocks". Then create the new club, and paste. You might be tempted to modify an existing Private club instead of creating a new club, but you should never do this as you will lose the ability recreate that club, the historical revisions of the new club will include the old one, and if you have changed the page slug then WordPress will redirect any requests for the old club page to the new one.
+Alternatively you can duplicate an existing club by going to the Clubs page, and when you hover the mouse over a club you will see a `Duplicate` option which will create a new Club with the same content. Note this won't copy the featured image (club logo).
 
-You can easily delete any unwanted blocks by using the Document Overview.
+You might be tempted to modify an existing Private club instead of creating a new club, but you should never do this as you will lose the ability recreate that club, the historical revisions of the new club will include the old one, and if you have changed the page slug then WordPress will redirect any requests for the old club page to the new one.
+
+You can easily delete any unwanted blocks by using the Document Overview (see below), and of course you can copy blocks from existing clubs.
 
 ![Document Overview](/assets/img/overview.png)
 
@@ -32,9 +34,9 @@ Once completed it should look something like:
 
 ![Completed Club Title](assets/img/club-title-filled.jpg)
 
-The club's location should be added using a [Location Block](location.md), as that will correctly format the Google Map, and make sure the club is placed correctly on the Clubs Map etc.
+The club's location should be added using a [Location Block](location.md), as that will format the Google Map, and make sure the club is placed on the Clubs Map etc.
 
-You should use the [Contact Block](contact.md) for contacts, and the [Attribute Value Block](attribute-value.md) to correctly format things like colours. You should take a look at both of those help pages as they detail easy ways to create these blocks by pasting or by transforming from other blocks.
+You should use the [Contact Block](contact.md) for contacts, and the [Attribute Value Block](attribute-value.md) to format things like colours. You should take a look at both of those help pages as they detail easy ways to create these blocks by pasting or by transforming from other blocks.
 
 If you know the Club's founded date then you should add it to the page under Club Information, unless the logo contains the founded date in which case it can be omitted, though you should make sure it's added to the [SEMLA Club Founded Dates Google Sheet](https://docs.google.com/spreadsheets/d/1_FFVi4FSQ5mW2Ory7X4gIRy-0JHlQEC3Zx6KJfQyusw/edit?usp=sharing)
 
